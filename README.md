@@ -23,8 +23,8 @@ For mac os, run following commands to install node & yarn
 ---
 
 ```
-1. $ git clone https://github.com/bhoomikhanderia/react-progress-bars.git
-2. $ cd react-progress-bars
+1. $ git clone https://github.com/bhoomikhanderia/progress-bars.git
+2. $ cd progress-bars
 3. $ yarn install
 ```
 
