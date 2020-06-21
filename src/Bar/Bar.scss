@@ -1,0 +1,24 @@
+.Bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  height: 70px;
+  font-size: 28px;
+
+  .Bar__fill {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #74dcf5;
+    transition: width 200ms;
+    z-index: -1;
+  }
+
+  .Bar__fill--over-warning {
+    background: #ef5350;
+  }
+}
